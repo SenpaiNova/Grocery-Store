@@ -1,0 +1,125 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+
+    background-image: url(images/bg4.jpg);
+    background-position: top left;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.banner h2 {
+    text-align: right;
+}
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    font-size: 32px;
+    color: white;
+}
+
+#vegetables {
+    width: 100%;
+    text-align: center;
+}
+
+#fruit {
+    width: 100%;
+    text-align: center;
+}
+
+#recipes {
+    width: 100%;
+    text-align: center;
+}
+
+.a {
+    display: inline-block;
+    width: 200px;
+    height: 275px;
+    font-weight: bold;
+
+    overflow: hidden;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.a img {
+    width: 100%;
+    height: 150px;
+}
+
+.a a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background-color: royalblue;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+.b {
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    font-weight: bold;
+
+    overflow: hidden;
+    border: 2px solid white;
+}
+
+.b img {
+    width: 100%;
+    height: 150px;
+}
+
+.b ul li {
+    text-align: left;
+}
+
+.footer {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
